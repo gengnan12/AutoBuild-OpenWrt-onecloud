@@ -16,7 +16,7 @@ on:
       name:
         description: 'Person to greet'
         required: true
-        default: 'Project-openwrt'
+        default: 'Lede-openwrt'
 
 
 #编辑任意指定文件触发开始编译
@@ -52,7 +52,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [Project_openwrt]
+        target: [Lede_openwrt]
 
     steps:
     - name: 准备结束
