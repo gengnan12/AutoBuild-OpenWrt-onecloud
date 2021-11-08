@@ -52,7 +52,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [Project]
+        target: [Project_openwrt]
 
     steps:
     - name: 准备结束
