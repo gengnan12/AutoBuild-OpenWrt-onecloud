@@ -69,3 +69,4 @@ echo -e "\nCONFIG_TARGET_IMAGES_GZIP=y" >> .config
    - [dhxh](https://github.com/dhxh/Openwrt-Build)
 
    - 定时更新脚本是由[dhxh](https://github.com/dhxh/Openwrt-Build)从[Hyy2001X](https://github.com/Hyy2001X/AutoBuild-Actions)基础修改完成
+2
